@@ -1,0 +1,259 @@
+%%
+%% The following code sets up the document formatting
+%%
+%this assumes that res_yy.sty is in some path
+\documentstyle[url, hyperref, margin, line, 11pt]{res_yy}
+
+\hypersetup{backref,pdfpagemode=Full,colorlinks=true,backref}
+
+\addtolength{\oddsidemargin}{-0.45in}
+\addtolength{\voffset}{-0.20in}
+\addtolength{\textwidth}{0.85in} 
+\addtolength{\textheight}{1.00in}
+
+\renewcommand{\namefont}{\LARGE\emph}
+
+%%
+%% starting the actual document
+%%
+
+\begin{document}
+
+%the name in big fonts at the top of resume
+%this is left aligned
+\name{Ryan Davis}
+\address{ryndvs96@gmail.com \ \ \ \ \ github.com/ryndvs96}
+\begin{resume}
+
+
+\section{\textsc{Objective}}
+
+Looking for an internship that will take advantage of my programming abilities, help me to grow as a software developer, and enable me to add value to an interesting company.
+
+
+\section{\textsc{Education}}
+
+\textbf{Purdue University} \hfill \emph{Expected Spring 2018} \\
+\textbf{Bachelor of Science in Computer Science} \hfill GPA 3.65\\
+\textbf{Concentrations:} Software Engineering, Foundations, Security\\
+\emph{Dean's List Fall 2015}\\
+\emph{Semester Honors since Spring 2015}
+
+
+
+\section{\textsc{Skills}}
+
+\small{\textbf{Skilled}: }\normalsize{Java, C++}\\
+\small{\textbf{Familiar}: }\normalsize{PHP, Haskell, SQL, JavaScript}\\
+\small{\textbf{Exposure}: }\normalsize{NodeJS, Redis, Ruby, CoffeeScript, \LaTeX}
+
+\begin{formatb}
+  \employer{l}\dates{r}\\
+  \location{l}\\
+  \body\\
+\end{formatb}
+
+\section{\textsc{Experience}}
+\employer{\textbf{Salesforce Pardot}, Atlanta, GA}
+\dates{\emph{Summer 2016}}
+\location{\emph{Software Engineer Intern}}
+\begin{position}
+  Converted the background jobs' infrastructure from MySQL to use a Redis NoSQL cache.
+\begin{itemize}
+\item Developed a neural network to predict customer deals based on their activity.
+\end{itemize}
+\begin{itemize}
+\item Worked on production automating chat bots using Lita and Hubot frameworks.
+\end{itemize}
+\begin{itemize}
+\item Exposure to development in a fast-paced continuous integration environment.
+\end{itemize}
+\end{position}
+
+\employer{\textbf{Havertys Furniture}, Atlanta, GA}
+\dates{\emph{Summer 2015}}
+\location{\emph{Software Engineer Intern}}
+\begin{position}
+  An Agile-based internship focused on exposure to software development in the real world. 
+\begin{itemize}
+\item Wrote the base programs to generate all PDF reports.
+\end{itemize}
+% \begin{itemize}
+% \item Updated main sales center website.
+% \end{itemize}
+\begin{itemize}
+\item Developed service programs for large database manipulations.
+\end{itemize}
+\end{position}
+
+\begin{formatb}
+  \employer{l}\dates{r}\\
+  \body\\
+\end{formatb}
+
+%\employer{\textbf{Degrees of Friendship}}
+%\dates{\emph{January 2016 - Present}}
+%\begin{position}
+%  Web app that will find a series of friendship connections between any two given people. 
+%\end{position}
+%\begin{itemize}
+%\item Based upon the theory of Six Degrees of Separation and implemented via Twitter.
+%\end{itemize}
+%\begin{itemize}
+%\item Constructing an efficient algorithm to find short paths of large database graphs.
+%\end{itemize}
+%\begin{itemize}
+%\item The project is being developed in an Agile (Scrum) Team environment.
+%\end{itemize}
+
+\section{\textsc{Research}}
+
+
+
+\employer{\textbf{\textcolor{black}{Computational Geometry \emph{C++}}}}
+\dates{\emph{Spring 2016}}
+\begin{position}
+    Researching with Professor Christoph Hoffmann to learn more about computational geometry using OpenGL and FreeGLUT libraries. Currently working with convex hulls of 2D polygons, basic point manipulation, and user interfacing to construct the 2D shapes.
+\end{position}
+
+
+%\section{\textsc{Coursework}}
+%\begin{tabular}{lllll}
+%Object Oriented Programming & \ \ & 
+%Data Structures & \ \ & 
+%Algorithms\\ 
+%Programming in C & \ \ & 
+%Discrete Mathematics & \ \ & 
+%Systems Programming\\
+%Computer Architecture & \ \ &
+%Statistics & \ \ & 
+%Software Engineering\\
+%\end{tabular}
+
+\section{\textsc{Projects}}
+
+%%\href{http://www.github.com/ryndvs96}
+%%{\textbf{\textcolor{black}{Programming Projects}}}
+
+\begin{formatb}
+  \employer{l}\dates{r}\\
+  \body\\
+\end{formatb}
+
+\employer{\textbf{Degrees of Separation \emph{Java}}}
+\dates{\emph{Spring 2016}}
+\begin{position}
+  Web app that will find a series of friendship connections between any two given people. 
+\end{position}
+%\begin{itemize}
+%\item Based upon the theory of Six Degrees of Separation.
+%\end{itemize}
+\begin{itemize}
+\item Constructed an efficient algorithm to find short paths of large database graphs.
+\end{itemize}
+\begin{itemize}
+\item The project was developed in an Agile (Scrum) Team environment.
+\end{itemize}
+
+\employer{\href{http://www.github.com/ryndvs96/Algorithms}{\textbf{\textcolor{black}{Algorithms \emph{Java, C++, Haskell}}}}}
+\dates{\emph{May 2015 - Present}}
+\begin{position}
+Implementation of algorithms with focus on time efficiency in topics including:%such as Sorting, Shortest Path Algorithms, Word Search Solving, and Polyomino Construction.
+\end{position}
+\begin{itemize}
+\item Sorting, Minimal Spanning Tree, and Shortest Path Algorithms%\hfill \emph{Prim's and Kruskal's Algorithms}
+\end{itemize}
+\begin{itemize}
+\item Word Search Solving%\hfill \emph{Decision Trees and Tries}
+\end{itemize}
+\begin{itemize}
+\item Polyomino Construction%\hfill \emph{Decision Trees and Tries}
+\end{itemize}
+% \begin{itemize}
+% \item Board Game Optimization%\hfill \emph{Decision Trees and Tries}
+% \end{itemize}
+%\begin{itemize}
+%\item Tetris Algorithms%\hfill \emph{Depth-First Search with Byte-Pair Compression}
+%\end{itemize}
+
+%\employer{\href{http://www.github.com/ryndvs96/terminalTetris}{\textbf{\textcolor{black}{Tetris Algorithms \emph{Java, C++}}}}}
+%\dates{\emph{May 2015 - Present}}
+%\begin{position}
+%This was once an idea for a five-block Tetris game and has now turned into a mathematical endeavor for efficiency in grid-based algorithms. Because there is a finite number of pieces in any 4-block, 5-block, etc. Tetris game, these algorithms attempt to calculate all pieces for N-blocks with minimal time and memory consumption. They use a combination of Map functions and byte-pair compression to allow for faster recursive processes.   
+%\end{position}
+
+%\textbf{\textcolor{black}{Board Game Optimization \emph{Java}}}\hfill\emph{Oct 2015 - Present}
+%\begin{itemize}
+%\setlength\itemsep{0.1pt}
+%\item Engineered artificial intelligence to efficiently play the board game Telepathy.
+%\item Assembled Decision Trees that result in a winning conclusion.
+%\end{itemize} 
+
+%\textbf{\textcolor{black}{Polyomino Algorithms \emph{Java, C++}}}\hfill\emph{May 2015 - Aug 2015}
+%\begin{itemize}
+%\setlength\itemsep{0.1pt}
+%\item Improved the running time of a depth-first search based block-finding algorithm. 
+%\item Multiple revisions of this algorithm increased efficiency by significant magnitudes.
+%\end{itemize} 
+
+%\textbf{\textcolor{black}{IRC Server and Client \emph{C, C++}}}\hfill\emph{Feb 2015 - May 2015}
+%\begin{itemize}
+%\setlength\itemsep{0.1pt}
+%\item An Internet Relay Chat server and client I created for a C Programming course.
+%\item Featuring group chat, automatic updates, and username-password login.
+%\end{itemize} 
+
+%\textbf{\textcolor{black}{Cryptography and Compression \emph{Java}}} \hfill\emph{July 2015 - Present}
+%\begin{itemize}
+%\setlength\itemsep{0.1pt}
+%\item Implemented processes of certain cryptographic and compression algorithms.
+%\item RSA, Secure Hashing Algorithms (MD5, SHA-0, etc.), and byte-pair compression.
+%\end{itemize} 
+
+
+%\employer{\href{http://www.github.com/ryndvs96/Dictionary}{\textbf{\textcolor{black}{Dictionary \emph{Java}}}}}
+%\dates{\emph{Oct 2013}}
+%\begin{position}
+%This program takes in a list of words from the console and prints out their definitions. It is my simple and smart solution to tedious high school homework assignments. This was my first experience with connecting to the internet via a program and retrieving information from it.
+%\end{position}
+
+%\employer{\href{http://www.github.com/ryndvs96/cProgramming}{\textbf{\textcolor{black}{Basics of C Programming \emph{C, C++}}}}}
+%\dates{\emph{Dec 2014 - May 2015}}
+%\begin{position}
+%A collection of basic C programs that reflect my progress in learning this language. The programs in this project go in depth with the basics of C programming language.
+%\end{position}
+
+
+\section{\textsc{Activities}}
+
+\begin{formatb}
+  \employer{l}\dates{r}\\
+  \body\\
+\end{formatb}
+
+\employer{\textbf{Purdue Competitive Programming}}
+\dates{\emph{Spring 2016 - Present}}
+\begin{position}
+A competitive programming group with weekly competitions and group discussions. There is emphasis on algorithms and optimization in regards to time complexity and memory management. Recently working on dynamic programming and analysis.
+\end{position}
+
+% \employer{\textbf{BoilerMake}}
+% \dates{\emph{Oct 2015}}
+% \begin{position}
+% At this 36-hour hackathon, I created a Predictive Policing Program to analyze fictional police data. Developed basic Java data loaders to collect the information. Then used analytical code to make logical predictions about future occurrences related to the data.
+% \end{position}
+
+%\employer{\textbf{Snowboarding}}
+%\dates{}
+%\begin{position}
+%I enjoy snowboarding as a hobby because it gives a thrilling rush whilst still having a lot of soft padding if I wipeout. It allows me to take a short break when I want to hit the slopes with some pals and have an awesome time. 
+%\end{position}
+
+%\employer{\textbf{Hack the Anvil}}
+%\dates{\emph{Mar 2015}}
+%\begin{position}
+%A 36 hour hackathon meant to ignite a group of ambitious and inspired hackers at Purdue University. 
+%\end{position}
+
+\end{resume}
+\end{document}}
